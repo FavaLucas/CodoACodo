@@ -1,0 +1,89 @@
+*{
+  padding: 0px;
+  width: 90%;
+  margin: auto;
+}
+
+.sectionImagenArtista {
+  background-color: antiquewhite;
+  /* width: 800px; */
+  height: 600px;
+  display: flex;
+  gap: 500px;
+}
+.mainDivAboutUs {
+  background-color: red;
+  width: 800px;
+  height: 600px;
+}
+.mainDivOtros {
+  background-color: blue;
+  width: 800px;
+  height: 600px;
+}
+.mainDivContact {
+  background-color: yellow;
+  width: 800px;
+  height: 600px;
+}
+
+.classIframe{
+  width: 200px;
+  height: 200px;
+}
+
+
+.imagenArtista {
+  width: 600px;
+  height: 500px;
+  background-color:blueviolet;
+}
+
+.informacionArtista {
+  width: 600px;
+  height: 500px;
+  background-color: blue;
+}
+
+.footer {
+  height: 250px;
+  background-color: chocolate;
+}
+
+.classHeader {
+  display: flex;
+  flex-direction: row;
+  /* align-content: space-around; */
+  justify-content: space-around;
+  height: 100px;
+  background-color:cornflowerblue;
+}
+.headerLogo{
+  width: 80px;
+  height: 80px;
+  background-color: red;
+}
+
+.divNavBar{
+  display: flex;
+}
+
+.tipoBoton{
+  display: flex;
+  flex-direction: row;
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
+.botonNav{
+  display: block;
+  background-color: greenyellow;
+  color: brown;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+}
