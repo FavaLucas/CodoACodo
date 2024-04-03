@@ -1,53 +1,7 @@
 *{
   padding: 0px;
-  width: 90%;
+  width: 100%;
   margin: auto;
-}
-
-.sectionImagenArtista {
-  background-color: antiquewhite;
-  /* width: 800px; */
-  height: 600px;
-  display: flex;
-  gap: 500px;
-}
-.mainDivAboutUs {
-  background-color: red;
-  width: 800px;
-  height: 600px;
-}
-.mainDivOtros {
-  background-color: blue;
-  width: 800px;
-  height: 600px;
-}
-.mainDivContact {
-  background-color: yellow;
-  width: 800px;
-  height: 600px;
-}
-
-.classIframe{
-  width: 200px;
-  height: 200px;
-}
-
-
-.imagenArtista {
-  width: 600px;
-  height: 500px;
-  background-color:blueviolet;
-}
-
-.informacionArtista {
-  width: 600px;
-  height: 500px;
-  background-color: blue;
-}
-
-.footer {
-  height: 250px;
-  background-color: chocolate;
 }
 
 .classHeader {
@@ -68,15 +22,15 @@
   display: flex;
 }
 
-.tipoBoton{
-  display: flex;
-  flex-direction: row;
-}
-
 .navBar{
   display: flex;
   flex-direction: row;
   align-items: center; 
+}
+
+.tipoBoton{
+  display: flex;
+  flex-direction: row;
 }
 
 .botonNav{
@@ -86,4 +40,67 @@
   height: 50px;
   width: 100px;
   border-radius: 10px;
+}
+
+.main {
+  padding-top: 20px;
+}
+
+.sectionCarrouselImagen {
+  background-color: red;
+  width: 80%;
+  height: 400px;
+  display: flex;
+  gap: 500px;
+}
+/*.carrousel {
+
+}*/
+
+/*.sectionImagenArtista {
+  background-color: red;
+  width: 80%;
+  height: 400px;
+  display: flex;
+  gap: 500px;
+}*/
+
+/*.imagenArtista {
+
+}*/
+
+/*.sectionVideosArtista{
+
+}*/
+
+.informacionArtista {
+  width: 600px;
+  height: 500px;
+  background-color: blue;
+}
+
+.footer {
+  height: 250px;
+  background-color: chocolate;
+}
+
+.mainDivAboutUs {
+  background-color: red;
+  width: 800px;
+  height: 600px;
+}
+.mainDivOtros {
+  background-color: blue;
+  width: 800px;
+  height: 600px;
+}
+.mainDivContact {
+  background-color: yellow;
+  width: 800px;
+  height: 600px;
+}
+
+.classIframe{
+  width: 200px;
+  height: 200px;
 }
