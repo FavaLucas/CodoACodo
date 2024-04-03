@@ -3,6 +3,15 @@
   width: 100%;
   margin: auto;
 }
+.body {
+	/*margin:0 20px;*/
+	margin: auto;
+	/*background-color: #070400;*/
+	/*color:#FFFFFF;*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	width:960px;
+}
 
 .classHeader {
   display: flex;
@@ -10,7 +19,7 @@
   /* align-content: space-around; */
   justify-content: space-around;
   height: 100px;
-  background-color:cornflowerblue;
+  background-color: palegoldenrod;
 }
 .headerLogo{
   width: 80px;
@@ -29,16 +38,24 @@
 }
 
 .tipoBoton{
+  justify-content: center;
+  margin-bottom: auto;
   display: flex;
   flex-direction: row;
 }
+.colorLetra {
+  margin-top: 15%;
+  display: flex;
+  color: black;
+  justify-content: center;
+}
 
-.botonNav{
+.botonNav {
   display: block;
   background-color: greenyellow;
-  color: brown;
+  color: green;
   height: 50px;
-  width: 100px;
+  width: 130px;
   border-radius: 10px;
 }
 
@@ -47,6 +64,7 @@
 }
 
 .sectionCarrouselImagen {
+  margin-top: 2%;
   background-color: red;
   width: 80%;
   height: 400px;
@@ -77,11 +95,7 @@
   width: 600px;
   height: 500px;
   background-color: blue;
-}
-
-.footer {
-  height: 250px;
-  background-color: chocolate;
+  margin-bottom: 2%;
 }
 
 .mainDivAboutUs {
@@ -101,6 +115,40 @@
 }
 
 .classIframe{
+  display: block;
+  margin: auto;
   width: 200px;
   height: 200px;
+}
+
+.footer {
+  display: flex;
+  height: 250px;
+  background-color: chocolate;
+}
+
+.botonNavFooter {
+  display: block;
+  background-color: greenyellow;
+  color: green;
+  height: 50px;
+  width: 130px;
+  border-radius: 10px;
+}
+.colorLetraFooter {
+  margin-top: 15%;
+  display: flex;
+  color: black;
+  justify-content: center;
+}
+
+.botonNavFooter1 {
+  display: block;
+  background-color: greenyellow;
+  color: green;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  font-size: 1em;
+  
 }
