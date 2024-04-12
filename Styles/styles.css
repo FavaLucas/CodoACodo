@@ -1,102 +1,139 @@
+:root{
+  --tono1: #104f7c;
+  --tono2: #286585;
+  --tono3: #527f90;
+  --tono4: #7c989d;
+  --tono5: #a0acab;
+  --tono6: #ffffff;
+  --tono7: #ff0000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 *{
   padding: 0px;
-  width: 100%;
+  max-width: 1400px;
+  box-sizing: border-box;
   margin: auto;
+  border-radius: 10px;
 }
 .body {
-	/*margin:0 20px;*/
-	margin: auto;
-	/*background-color: #070400;*/
-	/*color:#FFFFFF;*/
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:16px;
-	width:960px;
+	background-image: linear-gradient(0deg, #ffffff 0%, #286585 100%);
+  box-shadow: 46px 37px 42px 13px rgba(0, 0, 0, 0.86);
+  -webkit-box-shadow: 46px 37px 42px 13px rgba(0, 0, 0, 0.86);
+  -moz-box-shadow: 46px 37px 42px 13px rgba(0, 0, 0, 0.86);
+	color:#FFFFFF;
+	font-size: 1rem;
+  background-color: var(--tono6);
+  font-family: "Roboto", sans-serif;
 }
 
 .classHeader {
   display: flex;
   flex-direction: row;
-  /* align-content: space-around; */
-  justify-content: space-around;
-  height: 100px;
-  background-color: palegoldenrod;
+  justify-content: space-between;
+  height: 160px;
+  padding: 10px;
+  background-color: var(--tono1);
+  margin-bottom: 2%;
 }
+
 .headerLogo{
-  width: 80px;
-  height: 80px;
-  background-color: red;
+  margin: 0px;
+  width: 140px;
+  height: 140px;
 }
 
-.divNavBar{
-  display: flex;
-}
-
-.navBar{
+.divHeaderBotones {
+  margin: 0px;
+  width: 70%;
   display: flex;
   flex-direction: row;
-  align-items: center; 
+  gap: 10px;
 }
+
+.headerLogoImagen {
+  width: 140px;
+  height: 140px;
+}
+
 
 .tipoBoton{
-  justify-content: center;
-  margin-bottom: auto;
   display: flex;
   flex-direction: row;
 }
-.colorLetra {
-  margin-top: 15%;
-  display: flex;
-  color: black;
-  justify-content: center;
+
+.imgBoton {
+  width: 50px;
+  height: 50px;
 }
 
-.botonNav {
-  display: block;
-  background-color: greenyellow;
-  color: green;
-  height: 50px;
-  width: 130px;
-  border-radius: 10px;
+.aBoton {
+  /* background-color: greenyellow; */
+  color: black;
+  text-decoration: none;
+  min-width: 155px;
+  text-align: center;
+  font-size: 1rem;
+  padding: 15px;
+}
+
+.aBoton:link{
+  text-decoration: none;
+
 }
 
 .main {
   padding-top: 20px;
 }
 
-.sectionCarrouselImagen {
-  margin-top: 2%;
-  background-color: red;
-  width: 80%;
-  height: 400px;
-  display: flex;
-  gap: 500px;
+.sectionAside {
+  display:flex;
+  flex-direction: row;
+  width: 900;
+	height: 600px;
+	margin-bottom: 2%;  
 }
-/*.carrousel {
 
-}*/
-
-/*.sectionImagenArtista {
-  background-color: red;
-  width: 80%;
-  height: 400px;
-  display: flex;
-  gap: 500px;
-}*/
-
-/*.imagenArtista {
-
-}*/
-
-/*.sectionVideosArtista{
-
-}*/
-
-.informacionArtista {
-  width: 600px;
-  height: 500px;
-  background-color: blue;
-  margin-bottom: 2%;
+.imagenCarousel{
+  width: 840px;
+  height: 525px;
 }
+.asideFoto{
+    padding: 20px;
+    width:450px;
+    height:525px;
+    color: black;
+    text-align: justify;
+    font-size: 1.1rem;
+    border: 4px solid var(--tono1);
+}
+
+.sectionVideosArtista{
+  display:flex;
+  flex-direction: row;
+  width: 900;
+	height: 600px;
+	margin-bottom: 2%;
+}
+
+.asideInformacion {
+  width: 450px;
+  font-size: 1.1rem;
+  height: 525px;
+  text-align: justify;
+  color: black;
+  padding: 20px;
+  border: 4px solid var(--tono1);
+}
+
+/* .asideVideo{
+  width:840px;
+  height:525px;
+} */
+
 
 .mainDivAboutUs {
   background-color: red;
@@ -124,7 +161,7 @@
 .footer {
   display: flex;
   height: 250px;
-  background-color: chocolate;
+  background-color: var(--tono1);
 }
 
 .botonNavFooter {
@@ -149,6 +186,5 @@
   height: auto;
   width: auto;
   border-radius: 10px;
-  font-size: 1em;
-  
+  font-size: 1em; 
 }
